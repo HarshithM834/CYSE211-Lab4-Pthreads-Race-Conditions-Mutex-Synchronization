@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 390" width="1160" height="390">
+<rect width="1160" height="390" rx="20" fill="#0f1727"/>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<rect x="30" y="37" width="250" height="110" rx="12" fill="#185f59"/>
+<text x="155" y="80" font-size="19" font-weight="bold" fill="#fff">Single thread</text>
+<text x="155" y="111" font-size="14" fill="#cfe6ec">Predictable total</text>
+<path d="M 286 92 H 304" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 297 85 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="310" y="37" width="250" height="110" rx="12" fill="#185f59"/>
+<text x="435" y="80" font-size="19" font-weight="bold" fill="#fff">Sequential threads</text>
+<text x="435" y="111" font-size="14" fill="#cfe6ec">Correct sum</text>
+<path d="M 566 92 H 584" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 577 85 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="590" y="37" width="250" height="110" rx="12" fill="#36536d"/>
+<text x="715" y="80" font-size="19" font-weight="bold" fill="#fff">Concurrent threads</text>
+<text x="715" y="111" font-size="14" fill="#cfe6ec">Data race</text>
+<path d="M 846 92 H 864" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 857 85 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="870" y="37" width="250" height="110" rx="12" fill="#185f59"/>
+<text x="995" y="80" font-size="19" font-weight="bold" fill="#fff">Mutex protection</text>
+<text x="995" y="111" font-size="14" fill="#cfe6ec">Correct but slower</text>
+<rect x="30" y="202" width="250" height="110" rx="12" fill="#185f59"/>
+<text x="155" y="245" font-size="19" font-weight="bold" fill="#fff">Reduce iterations</text>
+<text x="155" y="276" font-size="14" fill="#cfe6ec">Overhead comparison</text>
+<path d="M 286 257 H 304" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 297 250 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="310" y="202" width="250" height="110" rx="12" fill="#36536d"/>
+<text x="435" y="245" font-size="19" font-weight="bold" fill="#fff">Shared argument</text>
+<text x="435" y="276" font-size="14" fill="#cfe6ec">Pointer hazard</text>
+<path d="M 566 257 H 584" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 577 250 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="590" y="202" width="250" height="110" rx="12" fill="#185f59"/>
+<text x="715" y="245" font-size="19" font-weight="bold" fill="#fff">Separate offsets</text>
+<text x="715" y="276" font-size="14" fill="#cfe6ec">Correct arguments</text>
+<path d="M 846 257 H 864" stroke="#4ce1c3" stroke-width="3" fill="none"/><path d="M 857 250 l7 7 -7 7" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+<rect x="870" y="202" width="250" height="110" rx="12" fill="#36536d"/>
+<text x="995" y="245" font-size="19" font-weight="bold" fill="#fff">Short unsafe run</text>
+<text x="995" y="276" font-size="14" fill="#cfe6ec">Zero not a guarantee</text>
+<path d="M 1040 152 V 182 H 155 V 198" stroke="#4ce1c3" stroke-width="3" fill="none"/>
+</g></svg>
